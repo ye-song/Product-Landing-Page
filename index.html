@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" media="screen"/>
+    <title>Product Landing Page</title>
+</head>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="images/xiaomi-logo.png"
+        alt="Xiao Mi Logo">
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#spec">Specifications</a></li>
+        <li><a class="nav-link" href="#video-review">Video Review</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <h1 id="home">Wireless Stereo Bluetooth 5.0 Speaker</h1>
+ <div class="product-image">
+   <img src="images/bluetooth-speaker.png" alt="Portable Bluetooth Speaker">
+  </div>
+
+<div id="spec" class="spec">
+ <h2>Specifications</h2>
+   <ul>
+    <li>Brand: Xiaomi</li>
+    <li>Color: black, white</li>
+    <li>Material: ABS plastic + Polycarbonate</li>
+    <li>Net weight (g): 76g</li>
+    <li>Dimensions: 52x52x48mm</li>
+    <li>Simultaneous connection of two phones : yes</li>
+    <li>Connection: bluetooth</li>
+    <li>Bluetooth version: V5.0</li>
+    <li>Transmission distance: 10m</li>
+    <li>Output Power: 3W</li>
+    <li>Resistance: 32Ω</li>
+    <li>Frequency response: 20-20 kHz</li>
+    <li>Battery Capacity: 720mAh, 3.7V</li>
+    <li>Charging time (h): 1-2 h</li>
+    <li>Music playing time (h): 7h</li>
+   </ul>
+</div>
+
+
+  <div class="container">
+
+    <section id="video-review">
+      <h2>Video Review</h2>
+      <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube.com/embed/zTCqObSfrWQ"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+        <section id="features">
+      <div class="grid">
+
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Premium Materials</h2>
+          <p>
+            External case is made of engineering grade ABS. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Fast Shipping</h2>
+          <p>
+            We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Quality Assurance</h2>
+          <p>
+            Each speaker is tested at our factories to ensure quality sound.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="pricing">
+      <div class="product" id="single speaker">
+        <div class="level">Single Speaker</div>
+        <h2>$20</h2>
+
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="stereo speaker">
+        <div class="level">Stereo Speaker (SALE)</div>
+        <h2><strike>$40</strike></h2>
+        <h2>$32.90</h2>
+        <button class="btn">Select</button>
+      </div>
+
+    </section>
+   <section id="hero">
+    <h3>Register for our newsletter to receive updates on the latest products!</h3>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Submit" class="btn" />
+    </form>
+   </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2016, XiaoMi</span>
+    </footer>
+  </div>
+</div>
+</html>
